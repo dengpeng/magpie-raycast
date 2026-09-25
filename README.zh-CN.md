@@ -14,11 +14,11 @@
 - **Show Subscription Quotas**：用 `magpie accounts --json` 显示订阅额度窗口。
 
 ```sh
-pnpm install
-pnpm test
-pnpm dev
+npm install
+npm test
+npm run dev
 ```
 
-`pnpm dev` 会把扩展加载进正在运行的 Raycast。根搜索图标在这个进程启动时登记，改了 `assets/magpie.png` 之后需要重启它。进程停掉后，命令会从 Raycast 里消失。`pnpm test` 覆盖路径展开、CLI 输出解析，以及本机装有 magpie 时对 CLI 的只读调用。
+`npm run dev` 会把扩展加载进正在运行的 Raycast。根搜索图标在这个进程启动时登记，改了 `assets/magpie.png` 之后需要重启它。进程停掉后，命令会从 Raycast 里消失。`npm test` 覆盖路径展开、CLI 输出解析，以及本机装有 magpie 时对 CLI 的只读调用。
 
 [English](README.md)

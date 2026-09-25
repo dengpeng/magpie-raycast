@@ -14,11 +14,11 @@ Commands:
 - **Show Subscription Quotas** shows allowance windows from `magpie accounts --json`.
 
 ```sh
-pnpm install
-pnpm test
-pnpm dev
+npm install
+npm test
+npm run dev
 ```
 
-`pnpm dev` loads the extension into the running Raycast app. Root-search icons are registered when that process starts, so restart it after changing `assets/magpie.png`. Stop the process and the commands disappear. `pnpm test` covers path expansion, CLI output parsing, and, when magpie is installed, read-only calls against the local CLI.
+`npm run dev` loads the extension into the running Raycast app. Root-search icons are registered when that process starts, so restart it after changing `assets/magpie.png`. Stop the process and the commands disappear. `npm test` covers path expansion, CLI output parsing, and, when magpie is installed, read-only calls against the local CLI.
 
 [中文说明](README.zh-CN.md)

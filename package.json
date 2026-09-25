@@ -77,9 +77,9 @@
     "dev": "ray develop",
     "build": "ray build -e dist",
     "lint": "ray lint",
-    "test": "tsx --test --test-reporter spec"
+    "test": "tsx --test --test-reporter spec",
+    "publish": "ray publish"
   },
-  "packageManager": "pnpm@11.25.0",
   "dependencies": {
     "@raycast/api": "^2.4.1",
     "react": "^19.3.0"
