@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "magpie",
   "title": "Magpie",
-  "description": "Switch an agent's model, apply a profile, and check usage or subscription quota through the local magpie CLI.",
+  "description": "Front end for magpie, the local app that assigns each coding agent a model. Switch models, apply profiles, and view usage and quota.",
   "icon": "magpie.png",
   "author": "dengpeng",
   "platforms": [

@@ -1,6 +1,8 @@
 # Magpie for Raycast
 
-本地 Raycast 扩展，通过本机 [magpie](https://usemagpie.ai) CLI 切换 agent 模型、应用配置档，以及查看用量和订阅额度。
+[Magpie](https://usemagpie.ai) 是一个菜单栏应用，给这台机器上的编程 agent 共用同一份模型目录。Codex、Claude Code、Gemini CLI、OpenCode 等各自指向你选的模型，请求经本机网关转发。
+
+这个扩展是 `magpie` CLI 在 Raycast 里的入口，用来切换某个 agent 的模型、应用配置档，以及查看用量和订阅额度。
 
 需要 Raycast 2.0 或更新版本，以及已安装的 magpie。扩展偏好 **Magpie CLI Path** 默认是 `~/.local/bin/magpie`。路径开头的 `~`，以及 `$HOME`、`${HOME}`，会展开成用户主目录，不会经过 shell。
 

@@ -1,6 +1,8 @@
 # Magpie for Raycast
 
-A local Raycast extension for the [magpie](https://usemagpie.ai) CLI. It switches an agent's model, applies a saved profile, and shows usage and subscription quota.
+[Magpie](https://usemagpie.ai) is a menu-bar app that keeps one model catalog for the coding agents on your machine. Codex, Claude Code, Gemini CLI, OpenCode, and the rest each point at a model you pick, and their requests go through a local gateway.
+
+This extension is a Raycast front end for the `magpie` CLI. It switches an agent's model, applies a saved profile, and shows usage and subscription quota.
 
 Requires Raycast 2.0 or later, and a magpie install. The **Magpie CLI Path** preference defaults to `~/.local/bin/magpie`. A leading `~`, and `$HOME` / `${HOME}`, expand to the home directory. The path is not passed through a shell.
 
